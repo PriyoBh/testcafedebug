@@ -1,0 +1,22 @@
+{
+  "name": "testcafepoc",
+  "version": "0.0.1",
+  "description": " a poc for using testcafe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testWidgetSanityTestsInProd": "gulp runWidgetSanityTestsProd"
+  },
+  "author": "Priyo",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-testcafe": "^0.9.2",
+    "testcafe": "^0.20.2",
+    "testcafe-reporter-xunit": "^2.1.0",
+    "yargs": "^11.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.1"
+  }
+}
